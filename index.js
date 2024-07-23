@@ -38,6 +38,7 @@ server.use('*',(req,res)=>{
   res.sendFile(path.resolve(__dirname,'build','index.html'))
 })
 console.log('env',process.env.DB_PASSWORD)
+console.log('sample');
 
 //@Abhay7199
 //abhi0_1pvt  db password
