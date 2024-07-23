@@ -39,6 +39,7 @@ server.use('*',(req,res)=>{
 })
 console.log('env',process.env.DB_PASSWORD)
 console.log('sample');
+console.log('new update');
 
 //@Abhay7199
 //abhi0_1pvt  db password
